@@ -63,4 +63,3 @@ device which can reduce bike accident
 and traffic jam and it’s my dream project.
 
 
-https://drive.google.com/drive/folders/1G2eK_n3Wra9doo9V5y2epdKj5jIkQYZ2?usp=sharing
