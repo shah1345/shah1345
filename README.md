@@ -63,3 +63,25 @@ device which can reduce bike accident
 and traffic jam and it’s my dream project.
 
 
+
+
+
+
+
+
+cd /d "%USERPROFILE%"
+pktmon filter add FCMC8889 -t TCP -p 8889
+pktmon filter add FCMC10556 -t TCP -p 10556
+pktmon start --capture --pkt-size 0 --file-name fcmc_control_new.etl
+
+
+
+
+
+
+
+
+pktmon stop
+pktmon etl2pcap fcmc_control_new.etl --out fcmc_control_new.pcapng
+
+
