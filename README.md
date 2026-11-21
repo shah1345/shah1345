@@ -52,7 +52,6 @@ Nozzles at any time anywhere.
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/https://www.facebook.com/shahnewaz2018/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/https://www.instagram.com/shah_newaz18//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCVf2-y6gsszWuDPiYB34FVA)  
 
- --disable-print-preview
 
 ## Shah's Goals:
 
@@ -65,23 +64,5 @@ and traffic jam and it’s my dream project.
 
 
 
-
-
-
-
-cd /d "%USERPROFILE%"
-pktmon filter add FCMC8889 -t TCP -p 8889
-pktmon filter add FCMC10556 -t TCP -p 10556
-pktmon start --capture --pkt-size 0 --file-name fcmc_control_new.etl
-
-
-
-
-
-
-
-
-pktmon stop
-pktmon etl2pcap fcmc_control_new.etl --out fcmc_control_new.pcapng
 
 
